@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/Zamaletdinov/immutable-find-replace.svg?branch=master)](https://travis-ci.com/Zamaletdinov/immutable-find-replace)
+
 # immutable-find-replace
 
 This library was inspired by and based on [find-replace](https://github.com/75lb/find-replace), does not mutate an initial array and built on top of TypeScript
