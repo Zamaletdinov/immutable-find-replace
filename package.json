@@ -5,5 +5,11 @@
   "main": "dist/index.js",
   "repository": "https://github.com/Zamaletdinov/immutable-find-replace.git",
   "author": "Renat Zamaletdinov <renat.zamaletdinov@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "3.9.7"
+  },
+  "scripts": {
+    "build": "yarn tsc"
+  }
 }
