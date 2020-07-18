@@ -1,6 +1,6 @@
 {
   "name": "immutable-find-replace",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Replace or remove multiple items in an array",
   "main": "dist/index.js",
   "repository": "https://github.com/Zamaletdinov/immutable-find-replace.git",
