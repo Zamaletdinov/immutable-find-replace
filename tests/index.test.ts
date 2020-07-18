@@ -1,15 +1,15 @@
 import { immutableFindReplace } from '../src/index';
 
-describe('immutable find replace tests', () => {
+describe('immutableFindReplace tests', () => {
   const initialArray = [1, 2, 3, 4, 5];
 
   it('replaces by single value', () => {
-      const expectedArray = [1, 2, 3, 4, 10];
+    const expectedArray = [1, 2, 3, 4, 10];
 
-      const result = immutableFindReplace(initialArray, x => x === 5, 10);
+    const result = immutableFindReplace(initialArray, x => x === 5, 10);
 
-      expect(result).toStrictEqual(expectedArray);
-      expect(initialArray).toStrictEqual(initialArray);
+    expect(result).toStrictEqual(expectedArray);
+    expect(initialArray).toStrictEqual(initialArray);
   });
 
   it('replaces by array', () => {
@@ -24,7 +24,11 @@ describe('immutable find replace tests', () => {
   it('replaces by reducer function', () => {
     const expectedArray = [2, 4, 6, 8, 10];
 
-    const result = immutableFindReplace(initialArray, x => true, x => x * 2);
+    const result = immutableFindReplace(
+      initialArray,
+      () => true,
+      x => x * 2
+    );
 
     expect(result).toStrictEqual(expectedArray);
     expect(initialArray).toStrictEqual(initialArray);

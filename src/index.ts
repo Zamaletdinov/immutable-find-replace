@@ -1,7 +1,7 @@
 export type Reducer<T> = (x: T) => T;
 export type Replacement<T> = {
   index: number;
-  values: T[]
+  values: T[];
 };
 
 /**
@@ -12,10 +12,14 @@ export type Replacement<T> = {
 
 export function immutableFindReplace<T>(array: T[], findFn: (x: T) => boolean, ...replacements: T[]): T[];
 export function immutableFindReplace<T>(array: T[], findFn: (x: T) => boolean, ...replacements: Reducer<T>[]): T[];
-export function immutableFindReplace<T>(array: T[], findFn: (x: T) => boolean, ...replacements: (T | Reducer<T>)[]): T[] {
+export function immutableFindReplace<T>(
+  array: T[],
+  findFn: (x: T) => boolean,
+  ...replacements: (T | Reducer<T>)[]
+): T[] {
   const result: T[] = [...array];
   const found: Replacement<T>[] = [];
-  
+
   for (let index = 0; index < result.length; index++) {
     const value = result[index];
     let expanded: T[] = [];
