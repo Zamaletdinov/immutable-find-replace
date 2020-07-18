@@ -53,5 +53,5 @@ const initialArray = [1, 2, 3, 4, 5];
 const result = immutableFindReplace(initialArray, x => x === 6, 10);
 
 console.log(result);
-[1, 2, 3, 4, 5]
+// [1, 2, 3, 4, 5]
 ```
