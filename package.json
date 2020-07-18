@@ -18,6 +18,9 @@
     "splice",
     "slice"
   ],
+  "engines": {
+    "node": ">=10"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.5",
     "jest": "^26.1.0",
