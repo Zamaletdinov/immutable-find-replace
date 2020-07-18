@@ -4,8 +4,20 @@
   "description": "Replace or remove multiple items in an array",
   "main": "dist/index.js",
   "repository": "https://github.com/Zamaletdinov/immutable-find-replace.git",
+  "bugs": {
+    "url": "https://github.com/Zamaletdinov/immutable-find-replace/issues"
+  },
+  "homepage": "https://github.com/Zamaletdinov/immutable-find-replace",
   "author": "Renat Zamaletdinov <renat.zamaletdinov@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "find",
+    "replace",
+    "array",
+    "remove",
+    "splice",
+    "slice"
+  ],
   "devDependencies": {
     "@types/jest": "^26.0.5",
     "jest": "^26.1.0",

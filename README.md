@@ -1,6 +1,6 @@
 # immutable-find-replace
 
-This library was inspired and based on [find-replace](https://github.com/75lb/find-replace), does not mutate an initial array and built on top of TypeScript
+This library was inspired by and based on [find-replace](https://github.com/75lb/find-replace), does not mutate an initial array and built on top of TypeScript
 
 ## Usage
 
