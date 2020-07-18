@@ -1,3 +1,4 @@
+[![View on NPM](http://img.shields.io/npm/v/immutable-find-replace.svg)](https://www.npmjs.com/package/immutable-find-replace)
 [![Build Status](https://travis-ci.com/Zamaletdinov/immutable-find-replace.svg?token=W59T71ksNx3zM46b5kL3&branch=master)](https://travis-ci.com/Zamaletdinov/immutable-find-replace)
 [![Dependencies Status](https://david-dm.org/Zamaletdinov/immutable-find-replace/status.svg)](https://david-dm.org/Zamaletdinov/immutable-find-replace)
 
