@@ -1,6 +1,6 @@
 {
   "name": "immutable-find-replace",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Replace or remove multiple items in an array",
   "main": "dist/index.js",
   "repository": "https://github.com/Zamaletdinov/immutable-find-replace.git",
@@ -23,15 +23,15 @@
   },
   "devDependencies": {
     "@types/jest": "^26.0.5",
-    "@typescript-eslint/eslint-plugin": "^3.6.1",
-    "@typescript-eslint/parser": "^3.6.1",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
     "eslint": "^7.5.0",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier": "^3.1.4",
     "jest": "^26.1.0",
     "prettier": "^2.0.5",
     "ts-jest": "^26.1.3",
-    "typescript": "^3.9.7"
+    "typescript": "^4.1.5"
   },
   "scripts": {
     "build": "yarn tsc",
